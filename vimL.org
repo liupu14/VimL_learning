@@ -1,0 +1,8 @@
+*** Vimscripts Learning
+**** Tip 1: echo and echom
+***** echo 
+      echo "hello world!"
+***** echom 
+      echom "hello world again!"
+***** message
+      message ============> hello world again!
