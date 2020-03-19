@@ -1,8 +1,28 @@
-*** Vimscripts Learning
-**** Tip 1: echo and echom
-***** echo 
-      echo "hello world!"
-***** echom 
-      echom "hello world again!"
-***** message
-      message ============> hello world again!
+#+ TITLE: Vimscripts Learning 
+#+ AUTHOR: liupu
+#+ DATE: 2020-03
+
+** Basics
+*** output message
+exist two ways to echo message in vim,they are echo and echom.Diffrence are
+output is stored message history or not!
+- echo 
+example: echo "hello world!"
+- echom 
+example: echom "hello world again!"
+- message 
+message can reshow echom's output.
+message >>>>>>>>>>>>>>>>>>>>>>> hello world again!
+
+*** three model
+- normal model (or command model)
+<esc> is default way to convert other model to normal model, but this key is
+inconvient for us to use, so I suggest to change the default way to jk.The
+detail is: inoremap jk <esc>
+
+- insert model 
+insert model can be named edit model. You can input text in the model. For
+entering the model, you have several ways,the common ways is i,I,a,A,o,O.
+
+- visual model 
+
