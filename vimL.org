@@ -26,3 +26,11 @@ entering the model, you have several ways,the common ways is i,I,a,A,o,O.
 
 - visual model 
 
+*** options 
+- boolean options 
+example: set number; setnonumber
+- values options 
+example: set mouse=a
+
+*** maps 
+- map ()
